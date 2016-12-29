@@ -18,7 +18,7 @@ describe('NumberBlackBox Unit tests', function() {
   });
 
   it('add() should return NaN if a NaN value is passed in as argument', function() {
-    expect(numberBlackBox.add('hello')).to.not.be.NaN;
+    expect(numberBlackBox.add('hello')).to.be.NaN;
   });
 
   // subtract
