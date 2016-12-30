@@ -1,6 +1,6 @@
 ---
 applications:
-- name: APPNAME
+- name: Sample_node
   command: node index.js
   buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
   instances: 1
