@@ -8,10 +8,10 @@ image_resource:
     tag: "latest"
 
 inputs:
-- name: concourse-pipeline-samples
+- name: sample_node
 
 outputs:
 - name: current-app-info
 
 run:
-  path: concourse-pipeline-samples/blue-green-app-deployment/ci/tasks/current-app-get-info
+  path: sample_node/blue-green-app-deployment/ci/tasks/current-app-get-info
