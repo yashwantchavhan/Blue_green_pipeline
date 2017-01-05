@@ -5,7 +5,7 @@ echo "entered into run_unit_tests"
 cd sample_node/blue-green-app-deployment/bgd-app
 echo "before npm install"
 npm install
-echo 'installation done"
+echo "installation done"
 echo "Test starts"
 mocha tests --recursive
 echo "Test succedd!!"
